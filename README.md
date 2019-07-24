@@ -1,6 +1,6 @@
 
 # Creating TTL Index
-db.Carts.createIndex({ "ExpireAt": 1 },{ expireAfterSeconds: 0 , background: true}); 
+``` db.Carts.createIndex({ "ExpireAt": 1 },{ expireAfterSeconds: 0 , background: true}); ```
 
 # Use Case
 300 documents created at 1 second ExpireAt intervals.
