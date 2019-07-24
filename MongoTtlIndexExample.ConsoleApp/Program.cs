@@ -21,7 +21,7 @@ namespace MongoTtlIndexExample.ConsoleApp
         }
         static void Main(string[] args)
         {
-            for (int i = 1; i <= 100; i++)
+            for (int i = 1; i <= 300; i++)
             {
                 createCartTasks.Add(_cartRepository.InsertOneAsync(new Cart
                 {
@@ -35,7 +35,7 @@ namespace MongoTtlIndexExample.ConsoleApp
 
             foreach (var createCartTask in createCartTasks.Select((Value, Index) => new { Value, Index }))
             {
-                Console.WriteLine($"{createCartTask.Index}: {createCartTask.Value.Result}");
+                Console.WriteLine($"{createCartTask.Index}:{{ {createCartTask.Value.Result} }}");
             }
             Console.ReadKey();
 
