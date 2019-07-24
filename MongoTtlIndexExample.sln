@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoTtlIndexExample.Core", "MongoTtlIndexExample.Core\MongoTtlIndexExample.Core.csproj", "{524CBC48-0BCE-410D-8186-C42E94ACCA99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoTtlIndexExample.ConsoleApp", "MongoTtlIndexExample.ConsoleApp\MongoTtlIndexExample.ConsoleApp.csproj", "{6D94AE0A-E3F8-4F16-86BD-01024B016D4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{524CBC48-0BCE-410D-8186-C42E94ACCA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524CBC48-0BCE-410D-8186-C42E94ACCA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524CBC48-0BCE-410D-8186-C42E94ACCA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524CBC48-0BCE-410D-8186-C42E94ACCA99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D94AE0A-E3F8-4F16-86BD-01024B016D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D94AE0A-E3F8-4F16-86BD-01024B016D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D94AE0A-E3F8-4F16-86BD-01024B016D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D94AE0A-E3F8-4F16-86BD-01024B016D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CFC6AE6-0289-4C78-8D20-9DA5D63245CB}
+	EndGlobalSection
+EndGlobal
