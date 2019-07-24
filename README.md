@@ -9,5 +9,6 @@ db.Carts.createIndex({ "ExpireAt": 1 },{ expireAfterSeconds: 0 , background: tru
 MongoDb expires 60 documents simultaneously in every minute.
 This is not a certain value cause of MongoDb doesn't guarenteed expiration time.
 But, it is showing us MongoDb checks expiration time for every minute.
+So, 300 documents is expired in 5 minutes.
 
 
